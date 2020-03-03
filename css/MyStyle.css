@@ -1,0 +1,36 @@
+
+
+header{
+    border:1px solid #000;
+    color:red;
+    text-align: center;
+    
+}
+
+.navbar-inner {
+    background:transparent;
+}
+
+
+#top-banner{
+    min-height:500px;
+    background-image: url(../Images/banner_assasins_creed_2.jpg);
+    background-size: cover;
+}
+
+.banner-overlay{
+    width: 50px;
+    height: 100;
+    background-color: black;
+    background-color: transparent;
+}
+
+/*
+@media screen and (max-width: 768px) {
+    body {
+        background-color: lightgreen;
+    }
+    aside, #top-banner{
+        display: none;
+    }
+}*/
