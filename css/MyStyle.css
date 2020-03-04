@@ -1,9 +1,14 @@
 
 
-header{
+.header{
     border:1px solid #000;
     color:red;
     text-align: center;
+    
+}
+.border{
+    border: 1px solid black;
+    height: 200px;
     
 }
 
@@ -11,7 +16,9 @@ header{
     background:transparent;
 }
 
-
+#section01 {
+    margin: auto;
+}
 #top-banner{
     min-height:500px;
     background-image: url(../Images/banner_assasins_creed_2.jpg);
@@ -19,10 +26,36 @@ header{
 }
 
 .banner-overlay{
-    width: 50px;
-    height: 100;
+    width: 700px;
+    height: 700;
     background-color: black;
     background-color: transparent;
+}
+
+.over{
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    margin: 0 23px;
+    margin-top: -80px;
+}
+#picture01{
+    background-image: url(../Images/thumb_call_of_duty.jpg);
+}
+#picture02{
+    background-image: url(../Images/thumb_forza4.jpg);
+}
+#picture03{
+    background-image: url(../Images/thumb_gtav.jpg);
+}
+#picture04{
+    background-image: url(../Images/thumb_halo4.jpg);
+}
+#picture05{
+    background-image: url(../Images/thumb_red_dead_redemption.jpg);
+}
+#picture06{
+    background-image: url(../Images/thumb_splintercell.jpg);
 }
 
 /*
