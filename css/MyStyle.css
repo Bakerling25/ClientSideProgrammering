@@ -9,7 +9,6 @@
 .border{
     border: 1px solid black;
     height: 200px;
-    
 }
 
 .navbar-inner {
@@ -23,6 +22,20 @@
     min-height:500px;
     background-image: url(../Images/banner_assasins_creed_2.jpg);
     background-size: cover;
+}
+
+.thump{
+    position: relative;
+}
+
+
+.bottom-text{
+    background-color: black;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    font-family: sans-serif;
+    color: #0cd9f5;
 }
 
 .banner-overlay{
@@ -41,6 +54,7 @@
 }
 #picture01{
     background-image: url(../Images/thumb_call_of_duty.jpg);
+
 }
 #picture02{
     background-image: url(../Images/thumb_forza4.jpg);
@@ -57,6 +71,7 @@
 #picture06{
     background-image: url(../Images/thumb_splintercell.jpg);
 }
+
 
 /*
 @media screen and (max-width: 768px) {
