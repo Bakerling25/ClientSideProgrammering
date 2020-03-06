@@ -1,92 +1,137 @@
 <!DOCTYPE html>
 <html>
-    <head>  
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Game-Changer</title>
-        <link href='../css/bootstrap-reboot.min.css' rel='stylesheet' type='text/css'> 
-        <link href='../css/bootstrap-grid.min.css' rel='stylesheet' type='text/css'> 
-        <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <link href="../css/MyStyle.css" rel="stylesheet" type="text/css">
-        <script src="../js/bootstrap.min.js"></script>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-        
-    </head>
-    <body>
-        
-        <header class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12 header" id="top-banner">
-                    <nav class="navbar navbar-expand-sm justify-content-center " id="topnavbar" >
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link font"  href="#">Forside</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link font" href="#">Spil</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link font" href="#">Anmeldelser</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link font" href="#">Kontakt</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
-        <main class="container">
-            <div class="row justify-content-center">
-                <div class="col-sm-2 border thump" id="picture01">
-                    <p class="bottom-text font">COD GhostRecon</p>
-                </div>
-                <div class="col-sm-2 border thump" id="picture02">
-                    <p class="bottom-text font">Forza</p>
-                </div>
-                <div class="col-sm-2 border thump" id="picture03">
-                    <p class="bottom-text font">GTA V</p>
-                </div>
-                <div class="col-sm-2 border thump" id="picture04">
-                    <p class="bottom-text font">Halo 4</p>
-                </div>
-                <div class="col-sm-2 border thump" id="picture05">
-                    <p class="bottom-text font">Red Dead Redemption</p>
-                </div>
-                <div class="col-sm-2 border thump" id="picture06">
-                    <p class="bottom-text font">Splinter Cell: Blacklist</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-8">
-                    <div class="row">
-                        <div class="col-sm-12 iframe-container">
-                            <iframe src="https://www.youtube.com/embed/4A05AnPSC6g" r="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-inpicture" allowfullscreen></iframe>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game-Changer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='../css/bootstrap-reboot.min.css' rel='stylesheet' type='text/css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="../css/MyStyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <header class="container-fluid">
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../Gamechangerbilledmateriale/Slidebanner/banner_assasins_creed_2.jpg"
+                                alt="billed1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Gamechangerbilledmateriale/Slidebanner/banner_forza4.jpg" alt="billed2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Gamechangerbilledmateriale/Slidebanner/banner_gta5.jpg" alt="billed3">
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-4 border">
-                    2
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 border">
-                    1
-                </div>
-                <div class="col-sm-4 border">
-                    2
-                </div>
-                <div class="col-sm-4 border">
-                    3
-                </div>
-            </div>
-        </main>
-        <footer class="container">
-            <div class="row">
-                <div class="col-sm-12 center-text">&copy; Copyright...     Thomas Salling</div>
-            </div>
-        </footer>
 
-    </body>
-   
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div>
+                <div class="row" >
+                    <div class="col-sm-12 header" id="topnavbar">
+                        <nav class="navbar navbar-expand-sm justify-content-center " >
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link font" href="#">Forside</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link font" href="#">Spil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link font" href="#">Anmeldelser</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link font" href="#">Kontakt</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-2 border thump" id="picture01">
+                <p class="bottom-text font">COD GhostRecon</p>
+            </div>
+            <div class="col-sm-2 border thump" id="picture02">
+                <p class="bottom-text font">Forza</p>
+            </div>
+            <div class="col-sm-2 border thump" id="picture03">
+                <p class="bottom-text font">GTA V</p>
+            </div>
+            <div class="col-sm-2 border thump" id="picture04">
+                <p class="bottom-text font">Halo 4</p>
+            </div>
+            <div class="col-sm-2 border thump" id="picture05">
+                <p class="bottom-text font">Red Dead Redemption</p>
+            </div>
+            <div class="col-sm-2 border thump" id="picture06">
+                <p class="bottom-text font">Splinter Cell: Blacklist</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="row">
+                    <div class="col-sm-12 iframe-container">
+                        <iframe src="https://www.youtube.com/embed/4A05AnPSC6g" r="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-inpicture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 border">
+                2
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 border">
+                1
+            </div>
+            <div class="col-sm-4 border">
+                2
+            </div>
+            <div class="col-sm-4 border">
+                3
+            </div>
+        </div>
+    </main>
+    <footer class="container">
+        <div class="row">
+            <div class="col-sm-12 center-text">&copy; Copyright... Thomas Salling</div>
+        </div>
+    </footer>
+
+</body>
+
 </html>

@@ -15,9 +15,18 @@
     height: 200px;
 }
 
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
 #topnavbar{
     background-color: rgba(0, 0, 0,0.7);
-    
+    position: relative;
+    top: auto;
+
 }
 li {
     border: 1px solid #000;
@@ -51,24 +60,31 @@ li {
 }
 
 
+
 #picture01{
-    background-image: url(../Images/thumb_call_of_duty.jpg);
+    background-image: url(../Gamechangerbilledmateriale/Thumbs/thumb_batman_arkham_origins.jpg);
+    background-size: cover;
 
 }
 #picture02{
-    background-image: url(../Images/thumb_forza4.jpg);
+    background-image: url(../Gamechangerbilledmateriale/Thumbs/thumb_call_of_duty.jpg);
+    background-size: cover;
 }
 #picture03{
-    background-image: url(../Images/thumb_gtav.jpg);
+    background-image: url(../Gamechangerbilledmateriale/Thumbs/thumb_fifa_2014.jpg);
+    background-size: cover;
 }
 #picture04{
-    background-image: url(../Images/thumb_halo4.jpg);
+    background-image: url(../Gamechangerbilledmateriale/Thumbs/thumb_forza4.jpg);
+    background-size: cover;
 }
 #picture05{
-    background-image: url(../Images/thumb_red_dead_redemption.jpg);
+    background-image: url(../Gamechangerbilledmateriale/Thumbs/thumb_gtav.jpg);
+    background-size: cover;
 }
 #picture06{
-    background-image: url(../Images/thumb_splintercell.jpg);
+    background-image: url(../Gamechangerbilledmateriale/Thumbs/thumb_halo4.jpg);
+    background-size: cover;
 }
 .iframe-container{
     overflow: hidden;
